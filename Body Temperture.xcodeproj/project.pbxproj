@@ -78,7 +78,6 @@
 		CE6060B825BBE2E40045BCCD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CE6060BA25BBE2E40045BCCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE6060BB25BBE2E40045BCCD /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
-		CEBB7CD725BD393F00E80E69 /* BodyTempertureIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BodyTempertureIcon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +94,6 @@
 		CE57EA7C25BD31ED00CBAEE5 /* materials */ = {
 			isa = PBXGroup;
 			children = (
-				CEBB7CD725BD393F00E80E69 /* BodyTempertureIcon.png */,
 				CE57EA7D25BD31FA00CBAEE5 /* body_temperture.gif */,
 			);
 			path = materials;
