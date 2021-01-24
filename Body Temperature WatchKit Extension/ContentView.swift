@@ -12,7 +12,7 @@ struct ContentView: View {
         MeasurementView()
             .toolbar(content: {
                 ToolbarItem(placement: .cancellationAction) {
-                    Text("Body Temperture").foregroundColor(.accentColor)
+                    Text("Body Temperature").foregroundColor(.accentColor)
                 }
             })
     }
@@ -68,7 +68,7 @@ struct MeasurementView: View {
     }
 }
 
-func getTemperture() -> Float {
+func getTemperature() -> Float {
     var randomGenerator = SystemRandomNumberGenerator()
     return Float.random(in: 35.5..<36.9, using: &randomGenerator)
 }
@@ -77,7 +77,7 @@ struct ResultView: View {
     @Binding var isPresented: Bool
     @Binding var isMeasurement: Bool
     
-    private let bodyTemperture = getTemperture()
+    private let bodyTemperature = getTemperature()
     
     var body: some View {
         VStack {
@@ -92,7 +92,7 @@ struct ResultView: View {
                     }
                     
                     HStack(alignment: .bottom) {
-                        Text(String(format: "%.1f", bodyTemperture))
+                        Text(String(format: "%.1f", bodyTemperature))
                             .font(.system(.title, design: .rounded))
                         Text("°C")
                             .font(.system(.title2, design: .rounded))

@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CE60609B25BBE2D80045BCCD /* Body Temperture WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = CE60609A25BBE2D80045BCCD /* Body Temperture WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CE60609B25BBE2D80045BCCD /* Body Temperature WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = CE60609A25BBE2D80045BCCD /* Body Temperature WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		CE6060A025BBE2DF0045BCCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE60609F25BBE2DF0045BCCD /* Assets.xcassets */; };
-		CE6060A725BBE2DF0045BCCD /* Body Temperture WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CE6060A625BBE2DF0045BCCD /* Body Temperture WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		CE6060AC25BBE2DF0045BCCD /* Body_TempertureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6060AB25BBE2DF0045BCCD /* Body_TempertureApp.swift */; };
+		CE6060A725BBE2DF0045BCCD /* Body Temperature WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CE6060A625BBE2DF0045BCCD /* Body Temperature WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CE6060AC25BBE2DF0045BCCD /* Body_TemperatureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6060AB25BBE2DF0045BCCD /* Body_TemperatureApp.swift */; };
 		CE6060AE25BBE2DF0045BCCD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6060AD25BBE2DF0045BCCD /* ContentView.swift */; };
 		CE6060B025BBE2DF0045BCCD /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6060AF25BBE2DF0045BCCD /* NotificationController.swift */; };
 		CE6060B225BBE2DF0045BCCD /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6060B125BBE2DF0045BCCD /* NotificationView.swift */; };
@@ -43,7 +43,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				CE6060A725BBE2DF0045BCCD /* Body Temperture WatchKit Extension.appex in Embed App Extensions */,
+				CE6060A725BBE2DF0045BCCD /* Body Temperature WatchKit Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -54,7 +54,7 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				CE60609B25BBE2D80045BCCD /* Body Temperture WatchKit App.app in Embed Watch Content */,
+				CE60609B25BBE2D80045BCCD /* Body Temperature WatchKit App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -64,12 +64,12 @@
 /* Begin PBXFileReference section */
 		CE57EA7A25BD2E1700CBAEE5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CE57EA7D25BD31FA00CBAEE5 /* body_temperture.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = body_temperture.gif; sourceTree = "<group>"; };
-		CE60609625BBE2D70045BCCD /* Body Temperture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Body Temperture.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE60609A25BBE2D80045BCCD /* Body Temperture WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Body Temperture WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE60609625BBE2D70045BCCD /* Body Temperature.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Body Temperature.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE60609A25BBE2D80045BCCD /* Body Temperature WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Body Temperature WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE60609F25BBE2DF0045BCCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE6060A125BBE2DF0045BCCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CE6060A625BBE2DF0045BCCD /* Body Temperture WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Body Temperture WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE6060AB25BBE2DF0045BCCD /* Body_TempertureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Body_TempertureApp.swift; sourceTree = "<group>"; };
+		CE6060A625BBE2DF0045BCCD /* Body Temperature WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Body Temperature WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE6060AB25BBE2DF0045BCCD /* Body_TemperatureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Body_TemperatureApp.swift; sourceTree = "<group>"; };
 		CE6060AD25BBE2DF0045BCCD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CE6060AF25BBE2DF0045BCCD /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		CE6060B125BBE2DF0045BCCD /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
@@ -106,8 +106,8 @@
 			children = (
 				CE57EA7C25BD31ED00CBAEE5 /* materials */,
 				CE57EA7A25BD2E1700CBAEE5 /* README.md */,
-				CE60609E25BBE2D80045BCCD /* Body Temperture WatchKit App */,
-				CE6060AA25BBE2DF0045BCCD /* Body Temperture WatchKit Extension */,
+				CE60609E25BBE2D80045BCCD /* Body Temperature WatchKit App */,
+				CE6060AA25BBE2DF0045BCCD /* Body Temperature WatchKit Extension */,
 				CE60609725BBE2D70045BCCD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -115,26 +115,26 @@
 		CE60609725BBE2D70045BCCD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CE60609625BBE2D70045BCCD /* Body Temperture.app */,
-				CE60609A25BBE2D80045BCCD /* Body Temperture WatchKit App.app */,
-				CE6060A625BBE2DF0045BCCD /* Body Temperture WatchKit Extension.appex */,
+				CE60609625BBE2D70045BCCD /* Body Temperature.app */,
+				CE60609A25BBE2D80045BCCD /* Body Temperature WatchKit App.app */,
+				CE6060A625BBE2DF0045BCCD /* Body Temperature WatchKit Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CE60609E25BBE2D80045BCCD /* Body Temperture WatchKit App */ = {
+		CE60609E25BBE2D80045BCCD /* Body Temperature WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
 				CE60609F25BBE2DF0045BCCD /* Assets.xcassets */,
 				CE6060A125BBE2DF0045BCCD /* Info.plist */,
 			);
-			path = "Body Temperture WatchKit App";
+			path = "Body Temperature WatchKit App";
 			sourceTree = "<group>";
 		};
-		CE6060AA25BBE2DF0045BCCD /* Body Temperture WatchKit Extension */ = {
+		CE6060AA25BBE2DF0045BCCD /* Body Temperature WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				CE6060AB25BBE2DF0045BCCD /* Body_TempertureApp.swift */,
+				CE6060AB25BBE2DF0045BCCD /* Body_TemperatureApp.swift */,
 				CE6060AD25BBE2DF0045BCCD /* ContentView.swift */,
 				CE6060AF25BBE2DF0045BCCD /* NotificationController.swift */,
 				CE6060B125BBE2DF0045BCCD /* NotificationView.swift */,
@@ -144,7 +144,7 @@
 				CE6060BB25BBE2E40045BCCD /* PushNotificationPayload.apns */,
 				CE6060B725BBE2E40045BCCD /* Preview Content */,
 			);
-			path = "Body Temperture WatchKit Extension";
+			path = "Body Temperature WatchKit Extension";
 			sourceTree = "<group>";
 		};
 		CE6060B725BBE2E40045BCCD /* Preview Content */ = {
@@ -158,9 +158,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CE60609525BBE2D70045BCCD /* Body Temperture */ = {
+		CE60609525BBE2D70045BCCD /* Body Temperature */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CE6060C625BBE2E40045BCCD /* Build configuration list for PBXNativeTarget "Body Temperture" */;
+			buildConfigurationList = CE6060C625BBE2E40045BCCD /* Build configuration list for PBXNativeTarget "Body Temperature" */;
 			buildPhases = (
 				CE60609425BBE2D70045BCCD /* Resources */,
 				CE6060C525BBE2E40045BCCD /* Embed Watch Content */,
@@ -170,14 +170,14 @@
 			dependencies = (
 				CE60609D25BBE2D80045BCCD /* PBXTargetDependency */,
 			);
-			name = "Body Temperture";
+			name = "Body Temperature";
 			productName = "Body Temperture";
-			productReference = CE60609625BBE2D70045BCCD /* Body Temperture.app */;
+			productReference = CE60609625BBE2D70045BCCD /* Body Temperature.app */;
 			productType = "com.apple.product-type.application.watchapp2-container";
 		};
-		CE60609925BBE2D80045BCCD /* Body Temperture WatchKit App */ = {
+		CE60609925BBE2D80045BCCD /* Body Temperature WatchKit App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CE6060C225BBE2E40045BCCD /* Build configuration list for PBXNativeTarget "Body Temperture WatchKit App" */;
+			buildConfigurationList = CE6060C225BBE2E40045BCCD /* Build configuration list for PBXNativeTarget "Body Temperature WatchKit App" */;
 			buildPhases = (
 				CE60609825BBE2D80045BCCD /* Resources */,
 				CE6060C125BBE2E40045BCCD /* Embed App Extensions */,
@@ -187,14 +187,14 @@
 			dependencies = (
 				CE6060A925BBE2DF0045BCCD /* PBXTargetDependency */,
 			);
-			name = "Body Temperture WatchKit App";
+			name = "Body Temperature WatchKit App";
 			productName = "Body Temperture WatchKit App";
-			productReference = CE60609A25BBE2D80045BCCD /* Body Temperture WatchKit App.app */;
+			productReference = CE60609A25BBE2D80045BCCD /* Body Temperature WatchKit App.app */;
 			productType = "com.apple.product-type.application.watchapp2";
 		};
-		CE6060A525BBE2DF0045BCCD /* Body Temperture WatchKit Extension */ = {
+		CE6060A525BBE2DF0045BCCD /* Body Temperature WatchKit Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CE6060BE25BBE2E40045BCCD /* Build configuration list for PBXNativeTarget "Body Temperture WatchKit Extension" */;
+			buildConfigurationList = CE6060BE25BBE2E40045BCCD /* Build configuration list for PBXNativeTarget "Body Temperature WatchKit Extension" */;
 			buildPhases = (
 				CE6060A225BBE2DF0045BCCD /* Sources */,
 				CE6060A325BBE2DF0045BCCD /* Frameworks */,
@@ -204,9 +204,9 @@
 			);
 			dependencies = (
 			);
-			name = "Body Temperture WatchKit Extension";
+			name = "Body Temperature WatchKit Extension";
 			productName = "Body Temperture WatchKit Extension";
-			productReference = CE6060A625BBE2DF0045BCCD /* Body Temperture WatchKit Extension.appex */;
+			productReference = CE6060A625BBE2DF0045BCCD /* Body Temperature WatchKit Extension.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
@@ -229,7 +229,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CE60609325BBE2D70045BCCD /* Build configuration list for PBXProject "Body Temperture" */;
+			buildConfigurationList = CE60609325BBE2D70045BCCD /* Build configuration list for PBXProject "Body Temperature" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -242,9 +242,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CE60609525BBE2D70045BCCD /* Body Temperture */,
-				CE60609925BBE2D80045BCCD /* Body Temperture WatchKit App */,
-				CE6060A525BBE2DF0045BCCD /* Body Temperture WatchKit Extension */,
+				CE60609525BBE2D70045BCCD /* Body Temperature */,
+				CE60609925BBE2D80045BCCD /* Body Temperature WatchKit App */,
+				CE6060A525BBE2DF0045BCCD /* Body Temperature WatchKit Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -284,7 +284,7 @@
 				CE6060B025BBE2DF0045BCCD /* NotificationController.swift in Sources */,
 				CE6060AE25BBE2DF0045BCCD /* ContentView.swift in Sources */,
 				CE6060B425BBE2DF0045BCCD /* ComplicationController.swift in Sources */,
-				CE6060AC25BBE2DF0045BCCD /* Body_TempertureApp.swift in Sources */,
+				CE6060AC25BBE2DF0045BCCD /* Body_TemperatureApp.swift in Sources */,
 				CE6060B225BBE2DF0045BCCD /* NotificationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,12 +294,12 @@
 /* Begin PBXTargetDependency section */
 		CE60609D25BBE2D80045BCCD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CE60609925BBE2D80045BCCD /* Body Temperture WatchKit App */;
+			target = CE60609925BBE2D80045BCCD /* Body Temperature WatchKit App */;
 			targetProxy = CE60609C25BBE2D80045BCCD /* PBXContainerItemProxy */;
 		};
 		CE6060A925BBE2DF0045BCCD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CE6060A525BBE2DF0045BCCD /* Body Temperture WatchKit Extension */;
+			target = CE6060A525BBE2DF0045BCCD /* Body Temperature WatchKit Extension */;
 			targetProxy = CE6060A825BBE2DF0045BCCD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -424,16 +424,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Body Temperture WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Body Temperature WatchKit Extension/Preview Content\"";
 				DEVELOPMENT_TEAM = WHBF4Z49B6;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Body Temperture WatchKit Extension/Info.plist";
+				INFOPLIST_FILE = "Body Temperature WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.shakshi.watch.Body-Temperture.watchkitapp.watchkitextension";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shakshi.watch.Body-Temperature.watchkitapp.watchkitextension";
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -448,16 +448,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Body Temperture WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Body Temperature WatchKit Extension/Preview Content\"";
 				DEVELOPMENT_TEAM = WHBF4Z49B6;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Body Temperture WatchKit Extension/Info.plist";
+				INFOPLIST_FILE = "Body Temperature WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.shakshi.watch.Body-Temperture.watchkitapp.watchkitextension";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shakshi.watch.Body-Temperature.watchkitapp.watchkitextension";
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -476,8 +476,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WHBF4Z49B6;
 				IBSC_MODULE = Body_Temperture_WatchKit_Extension;
-				INFOPLIST_FILE = "Body Temperture WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.shakshi.watch.Body-Temperture.watchkitapp";
+				INFOPLIST_FILE = "Body Temperature WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shakshi.watch.Body-Temperature.watchkitapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -496,8 +496,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WHBF4Z49B6;
 				IBSC_MODULE = Body_Temperture_WatchKit_Extension;
-				INFOPLIST_FILE = "Body Temperture WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.shakshi.watch.Body-Temperture.watchkitapp";
+				INFOPLIST_FILE = "Body Temperature WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shakshi.watch.Body-Temperature.watchkitapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -514,7 +514,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WHBF4Z49B6;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.shakshi.watch.Body-Temperture";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shakshi.watch.Body-Temperature";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -527,7 +527,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WHBF4Z49B6;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.shakshi.watch.Body-Temperture";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shakshi.watch.Body-Temperature";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -536,7 +536,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CE60609325BBE2D70045BCCD /* Build configuration list for PBXProject "Body Temperture" */ = {
+		CE60609325BBE2D70045BCCD /* Build configuration list for PBXProject "Body Temperature" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CE6060BC25BBE2E40045BCCD /* Debug */,
@@ -545,7 +545,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CE6060BE25BBE2E40045BCCD /* Build configuration list for PBXNativeTarget "Body Temperture WatchKit Extension" */ = {
+		CE6060BE25BBE2E40045BCCD /* Build configuration list for PBXNativeTarget "Body Temperature WatchKit Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CE6060BF25BBE2E40045BCCD /* Debug */,
@@ -554,7 +554,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CE6060C225BBE2E40045BCCD /* Build configuration list for PBXNativeTarget "Body Temperture WatchKit App" */ = {
+		CE6060C225BBE2E40045BCCD /* Build configuration list for PBXNativeTarget "Body Temperature WatchKit App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CE6060C325BBE2E40045BCCD /* Debug */,
@@ -563,7 +563,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CE6060C625BBE2E40045BCCD /* Build configuration list for PBXNativeTarget "Body Temperture" */ = {
+		CE6060C625BBE2E40045BCCD /* Build configuration list for PBXNativeTarget "Body Temperature" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CE6060C725BBE2E40045BCCD /* Debug */,

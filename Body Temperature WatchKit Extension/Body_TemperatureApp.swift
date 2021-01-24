@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct Body_TempertureApp: App {
+struct Body_TemperatureApp: App {
     @SceneBuilder var body: some Scene {
         WindowGroup {
             NavigationView {

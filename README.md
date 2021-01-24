@@ -1,4 +1,4 @@
-# Body Temperture
+# Body Temperature
 
 <p align="center">
   <img src="materials/BodyTempertureIcon.png" height=64 />
