@@ -62,6 +62,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CE57EA7A25BD2E1700CBAEE5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CE57EA7D25BD31FA00CBAEE5 /* body_temperture.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = body_temperture.gif; sourceTree = "<group>"; };
+		CE57EA7E25BD336000CBAEE5 /* BodyTempertureIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BodyTempertureIcon.png; sourceTree = "<group>"; };
 		CE60609625BBE2D70045BCCD /* Body Temperture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Body Temperture.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE60609A25BBE2D80045BCCD /* Body Temperture WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Body Temperture WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE60609F25BBE2DF0045BCCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -89,9 +92,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE57EA7C25BD31ED00CBAEE5 /* materials */ = {
+			isa = PBXGroup;
+			children = (
+				CE57EA7E25BD336000CBAEE5 /* BodyTempertureIcon.png */,
+				CE57EA7D25BD31FA00CBAEE5 /* body_temperture.gif */,
+			);
+			path = materials;
+			sourceTree = "<group>";
+		};
 		CE60608F25BBE2D70045BCCD = {
 			isa = PBXGroup;
 			children = (
+				CE57EA7C25BD31ED00CBAEE5 /* materials */,
+				CE57EA7A25BD2E1700CBAEE5 /* README.md */,
 				CE60609E25BBE2D80045BCCD /* Body Temperture WatchKit App */,
 				CE6060AA25BBE2DF0045BCCD /* Body Temperture WatchKit Extension */,
 				CE60609725BBE2D70045BCCD /* Products */,

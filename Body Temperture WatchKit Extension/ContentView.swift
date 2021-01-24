@@ -10,6 +10,11 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         MeasurementView()
+            .toolbar(content: {
+                ToolbarItem(placement: .cancellationAction) {
+                    Text("Body Temperture").foregroundColor(.accentColor)
+                }
+            })
     }
 }
 
@@ -56,7 +61,7 @@ struct MeasurementView: View {
             ResultView(isPresented: $isResultPresented, isMeasurement: $isMeasurementStarted)
                 .toolbar(content: {
                     ToolbarItem(placement: .cancellationAction) {
-                        Text("Results").accentColor(.accentColor)
+                        Text("Results").foregroundColor(.accentColor)
                     }
                 })
         })
