@@ -116,6 +116,7 @@ struct ResultsView: View {
             })
             
             Text("You can view Body Temperature measurements in the Health app on iPhone")
+                .foregroundColor(.secondary)
         }
     }
 }
