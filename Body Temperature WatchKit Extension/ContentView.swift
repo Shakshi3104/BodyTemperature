@@ -80,15 +80,21 @@ struct ResultsView: View {
     private let bodyTemperature = getTemperature()
     
     var body: some View {
-        VStack {
-            List {
+        ScrollView {
+
+            Button(action: {
+                
+            }, label: {
                 VStack(alignment: .leading) {
                     HStack {
                         Text("Body Temperature")
                             .font(.system(.body, design: .rounded))
+                            .fontWeight(.medium)
+                            .fixedSize(horizontal: false, vertical: true)
                         Spacer()
                         Image(systemName: "info.circle")
                             .foregroundColor(.secondary)
+                            .font(.title3)
                     }
                     
                     HStack(alignment: .bottom) {
@@ -98,14 +104,18 @@ struct ResultsView: View {
                             .font(.system(.title2, design: .rounded))
                     }
                 }
-            }
+            })
             
+            Spacer().frame(height: 10)
+                
             Button(action: {
                 self.isPresented = false
                 self.isMeasurement = false
             }, label: {
                 Text("Done")
             })
+            
+            Text("You can view Body Temperature measurements in the Health app on iPhone")
         }
     }
 }

@@ -62,7 +62,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		CE36E56825BE519400DEDD8C /* BodyTemperature.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = BodyTemperature.gif; sourceTree = "<group>"; };
+		CE36E56F25BE912700DEDD8C /* BodyTemperature.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = BodyTemperature.gif; sourceTree = "<group>"; };
 		CE57EA7A25BD2E1700CBAEE5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CE60609625BBE2D70045BCCD /* Body Temperature.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Body Temperature.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE60609A25BBE2D80045BCCD /* Body Temperature WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Body Temperature WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -96,7 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				CEBB7CD825BD3A0300E80E69 /* BodyTemperatureIcon.png */,
-				CE36E56825BE519400DEDD8C /* BodyTemperature.gif */,
+				CE36E56F25BE912700DEDD8C /* BodyTemperature.gif */,
 			);
 			path = materials;
 			sourceTree = "<group>";
