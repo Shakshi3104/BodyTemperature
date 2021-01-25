@@ -1,6 +1,6 @@
 //
-//  Body_TempertureApp.swift
-//  Body Temperture WatchKit Extension
+//  Body_TemperatureApp.swift
+//  Body Temperature WatchKit Extension
 //
 //  Created by Satoshi on 2021/01/23.
 //

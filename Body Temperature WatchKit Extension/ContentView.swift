@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  Body Temperture WatchKit Extension
+//  Body Temperature WatchKit Extension
 //
 //  Created by Satoshi on 2021/01/23.
 //
@@ -58,7 +58,7 @@ struct MeasurementView: View {
             }
         }
         .sheet(isPresented: $isResultPresented, content: {
-            ResultView(isPresented: $isResultPresented, isMeasurement: $isMeasurementStarted)
+            ResultsView(isPresented: $isResultPresented, isMeasurement: $isMeasurementStarted)
                 .toolbar(content: {
                     ToolbarItem(placement: .cancellationAction) {
                         Text("Results").foregroundColor(.accentColor)
@@ -73,7 +73,7 @@ func getTemperature() -> Float {
     return Float.random(in: 35.5..<36.9, using: &randomGenerator)
 }
 
-struct ResultView: View {
+struct ResultsView: View {
     @Binding var isPresented: Bool
     @Binding var isMeasurement: Bool
     
@@ -84,7 +84,7 @@ struct ResultView: View {
             List {
                 VStack(alignment: .leading) {
                     HStack {
-                        Text("Body Temperture")
+                        Text("Body Temperature")
                             .font(.system(.body, design: .rounded))
                         Spacer()
                         Image(systemName: "info.circle")
@@ -114,7 +114,7 @@ struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
             ContentView()
-            ResultView(isPresented: .constant(false), isMeasurement: .constant(false))
+            ResultsView(isPresented: .constant(false), isMeasurement: .constant(false))
         }
     }
 }
