@@ -62,8 +62,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CE36E56825BE519400DEDD8C /* BodyTemperature.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = BodyTemperature.gif; sourceTree = "<group>"; };
 		CE57EA7A25BD2E1700CBAEE5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		CE57EA7D25BD31FA00CBAEE5 /* body_temperture.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = body_temperture.gif; sourceTree = "<group>"; };
 		CE60609625BBE2D70045BCCD /* Body Temperature.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Body Temperature.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE60609A25BBE2D80045BCCD /* Body Temperature WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Body Temperature WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE60609F25BBE2DF0045BCCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -78,7 +78,7 @@
 		CE6060B825BBE2E40045BCCD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CE6060BA25BBE2E40045BCCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE6060BB25BBE2E40045BCCD /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
-		CEBB7CD825BD3A0300E80E69 /* BodyTempertureIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BodyTempertureIcon.png; sourceTree = "<group>"; };
+		CEBB7CD825BD3A0300E80E69 /* BodyTemperatureIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BodyTemperatureIcon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +95,8 @@
 		CE57EA7C25BD31ED00CBAEE5 /* materials */ = {
 			isa = PBXGroup;
 			children = (
-				CEBB7CD825BD3A0300E80E69 /* BodyTempertureIcon.png */,
-				CE57EA7D25BD31FA00CBAEE5 /* body_temperture.gif */,
+				CEBB7CD825BD3A0300E80E69 /* BodyTemperatureIcon.png */,
+				CE36E56825BE519400DEDD8C /* BodyTemperature.gif */,
 			);
 			path = materials;
 			sourceTree = "<group>";
