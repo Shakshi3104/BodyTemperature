@@ -32,8 +32,9 @@ struct MeasurementView: View {
             
             if isMeasurementStarted {
                 HStack(alignment: .bottom) {
+                    // Monospaced font for timer
                     Text("\(timeVal)")
-                        .font(.system(.largeTitle, design: .rounded))
+                        .font(Font.system(.largeTitle, design: .rounded).monospacedDigit())
                         .onReceive(timer, perform: { _ in
                             if timeVal > 0 {
                                 timeVal -= 1
@@ -81,30 +82,31 @@ struct ResultsView: View {
     
     var body: some View {
         ScrollView {
-
-            Button(action: {
-                
-            }, label: {
-                VStack(alignment: .leading) {
-                    HStack {
-                        Text("Body Temperature")
-                            .font(.system(.body, design: .rounded))
-                            .fontWeight(.medium)
-                            .fixedSize(horizontal: false, vertical: true)
-                        Spacer()
-                        Image(systemName: "info.circle")
-                            .foregroundColor(.secondary)
-                            .font(.title3)
-                    }
-                    
-                    HStack(alignment: .bottom) {
-                        Text(String(format: "%.1f", bodyTemperature))
-                            .font(.system(.title, design: .rounded))
-                        Text("°C")
-                            .font(.system(.title2, design: .rounded))
-                    }
-                }
-            })
+            NavigationView {
+                NavigationLink(
+                    destination: InfoView(),
+                    label: {
+                        VStack(alignment: .leading) {
+                            HStack {
+                                Text("Body Temperature")
+                                    .font(.system(.body, design: .rounded))
+                                    .fontWeight(.medium)
+                                    .fixedSize(horizontal: false, vertical: true)
+                                Spacer()
+                                Image(systemName: "info.circle")
+                                    .foregroundColor(.secondary)
+                                    .font(.title3)
+                            }
+                            
+                            HStack(alignment: .bottom) {
+                                Text(String(format: "%.1f", bodyTemperature))
+                                    .font(.system(.title, design: .rounded))
+                                Text("°C")
+                                    .font(.system(.title2, design: .rounded))
+                            }
+                        }
+                    })
+            }
             
             Spacer().frame(height: 10)
                 
@@ -116,8 +118,24 @@ struct ResultsView: View {
             })
             
             Text("You can view Body Temperature measurements in the Health app on iPhone")
+                .font(.system(.footnote))
                 .foregroundColor(.secondary)
+                .frame(alignment: .leading)
         }
+    }
+}
+
+struct InfoView: View {
+    var body: some View {
+        ScrollView {
+            Text("About Body Temperature Measurements")
+                .font(.system(.headline, design: .rounded))
+                .frame(maxWidth: .infinity,alignment: .leading)
+            Divider()
+            Text("Normal body temperature varies throughout the day－it's lower in the morning and higher in the late afternoon and evening. The average normal body temperature is 98.6°F (37°C). What's normal for you nay be a degree or more higher or lower than this.")
+                .font(.system(.body, design: .rounded))
+                .frame(maxWidth: .infinity,alignment: .leading)
+        }.navigationBarTitle(Text("Info"))
     }
 }
 
@@ -126,6 +144,7 @@ struct ContentView_Previews: PreviewProvider {
         Group {
             ContentView()
             ResultsView(isPresented: .constant(false), isMeasurement: .constant(false))
+            InfoView()
         }
     }
 }
