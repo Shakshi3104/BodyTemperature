@@ -80,16 +80,21 @@ struct ResultsView: View {
     
     private let bodyTemperature = getTemperature()
     
+//    @State var isActiveInfoView = false
+    
     var body: some View {
         ScrollView {
 //            NavigationView {
 //                NavigationLink(
 //                    destination: InfoView(),
-//                    label: {
-//                        
-//                    })
+//                    isActive: $isActiveInfoView) {
+//                    EmptyView()
+//                }
 //            }
-            Button(action: {}, label: {
+            
+            Button(action: {
+//                self.isActiveInfoView = true
+            }, label: {
                 VStack(alignment: .leading) {
                     HStack {
                         Text("body_temp")
