@@ -82,31 +82,34 @@ struct ResultsView: View {
     
     var body: some View {
         ScrollView {
-            NavigationView {
-                NavigationLink(
-                    destination: InfoView(),
-                    label: {
-                        VStack(alignment: .leading) {
-                            HStack {
-                                Text("body_temp")
-                                    .font(.system(.body, design: .rounded))
-                                    .fontWeight(.medium)
-                                    .fixedSize(horizontal: false, vertical: true)
-                                Spacer()
-                                Image(systemName: "info.circle")
-                                    .foregroundColor(.secondary)
-                                    .font(.title3)
-                            }
-                            
-                            HStack(alignment: .bottom) {
-                                Text(String(format: "%.1f", bodyTemperature))
-                                    .font(.system(.title, design: .rounded))
-                                Text("°C")
-                                    .font(.system(.title2, design: .rounded))
-                            }
-                        }
-                    })
-            }
+//            NavigationView {
+//                NavigationLink(
+//                    destination: InfoView(),
+//                    label: {
+//                        
+//                    })
+//            }
+            Button(action: {}, label: {
+                VStack(alignment: .leading) {
+                    HStack {
+                        Text("body_temp")
+                            .font(.system(.body, design: .rounded))
+                            .fontWeight(.medium)
+                            .fixedSize(horizontal: false, vertical: true)
+                        Spacer()
+                        Image(systemName: "info.circle")
+                            .foregroundColor(.secondary)
+                            .font(.title3)
+                    }
+                    
+                    HStack(alignment: .bottom) {
+                        Text(String(format: "%.1f", bodyTemperature))
+                            .font(.system(.title, design: .rounded))
+                        Text("°C")
+                            .font(.system(.title2, design: .rounded))
+                    }
+                }
+            })
             
             Spacer().frame(height: 10)
                 
@@ -143,6 +146,7 @@ struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
             ContentView()
+                .environment(\.locale, .init(identifier: "ja"))
             ResultsView(isPresented: .constant(false), isMeasurement: .constant(false))
             InfoView()
         }
