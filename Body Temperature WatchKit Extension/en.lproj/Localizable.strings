@@ -1,0 +1,17 @@
+/* 
+  Localizable.strings
+  Body Temperature
+
+  Created by MacBook Pro on 2021/01/30.
+  
+*/
+"app_name" = "Body Temperature";
+"sec_unit" = "sec";
+"start_button" = "Start";
+"results_name" = "Results";
+"body_temp" = "Body Temperature";
+"done_button" = "Done";
+"health_app_text" = "You can view Body Temperature measurements in the Health app on iPhone";
+"info_bar_title" = "Info";
+"info_title" = "About Body Temperature Measurements";
+"info_contents" = "Normal body temperature varies throughout the day－it's lower in the morning and higher in the late afternoon and evening. The average normal body temperature is 98.6°F (37°C). What's normal for you nay be a degree or more higher or lower than this.";

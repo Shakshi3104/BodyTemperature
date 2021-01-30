@@ -12,7 +12,7 @@ struct ContentView: View {
         MeasurementView()
             .toolbar(content: {
                 ToolbarItem(placement: .cancellationAction) {
-                    Text("Body Temperature").foregroundColor(.accentColor)
+                    Text("app_name").foregroundColor(.accentColor)
                 }
             })
     }
@@ -43,7 +43,7 @@ struct MeasurementView: View {
                                 isResultPresented = true
                             }
                         })
-                    Text("sec")
+                    Text("sec_unit")
                         .font(.system(.title, design: .rounded))
                     Spacer()
                 }
@@ -54,7 +54,7 @@ struct MeasurementView: View {
                     timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
                     timeVal = 15
                 }, label: {
-                    Text("Start")
+                    Text("start_button")
                 })
             }
         }
@@ -62,7 +62,7 @@ struct MeasurementView: View {
             ResultsView(isPresented: $isResultPresented, isMeasurement: $isMeasurementStarted)
                 .toolbar(content: {
                     ToolbarItem(placement: .cancellationAction) {
-                        Text("Results").foregroundColor(.accentColor)
+                        Text("results_name").foregroundColor(.accentColor)
                     }
                 })
         })
@@ -88,7 +88,7 @@ struct ResultsView: View {
                     label: {
                         VStack(alignment: .leading) {
                             HStack {
-                                Text("Body Temperature")
+                                Text("body_temp")
                                     .font(.system(.body, design: .rounded))
                                     .fontWeight(.medium)
                                     .fixedSize(horizontal: false, vertical: true)
@@ -114,10 +114,10 @@ struct ResultsView: View {
                 self.isPresented = false
                 self.isMeasurement = false
             }, label: {
-                Text("Done")
+                Text("done_button")
             })
             
-            Text("You can view Body Temperature measurements in the Health app on iPhone")
+            Text("health_app_text")
                 .font(.system(.footnote))
                 .foregroundColor(.secondary)
                 .frame(alignment: .leading)
@@ -128,14 +128,14 @@ struct ResultsView: View {
 struct InfoView: View {
     var body: some View {
         ScrollView {
-            Text("About Body Temperature Measurements")
+            Text("info_title")
                 .font(.system(.headline, design: .rounded))
                 .frame(maxWidth: .infinity,alignment: .leading)
             Divider()
-            Text("Normal body temperature varies throughout the day－it's lower in the morning and higher in the late afternoon and evening. The average normal body temperature is 98.6°F (37°C). What's normal for you nay be a degree or more higher or lower than this.")
+            Text("info_contents")
                 .font(.system(.body, design: .rounded))
                 .frame(maxWidth: .infinity,alignment: .leading)
-        }.navigationBarTitle(Text("Info"))
+        }.navigationBarTitle(Text("info_bar_title"))
     }
 }
 

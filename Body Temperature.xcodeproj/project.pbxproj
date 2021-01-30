@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE56EAA425C5245F0032095A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE56EAA625C5245F0032095A /* Localizable.strings */; };
 		CE60609B25BBE2D80045BCCD /* Body Temperature WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = CE60609A25BBE2D80045BCCD /* Body Temperature WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		CE6060A025BBE2DF0045BCCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE60609F25BBE2DF0045BCCD /* Assets.xcassets */; };
 		CE6060A725BBE2DF0045BCCD /* Body Temperature WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CE6060A625BBE2DF0045BCCD /* Body Temperature WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -63,6 +64,8 @@
 
 /* Begin PBXFileReference section */
 		CE36E56F25BE912700DEDD8C /* BodyTemperature.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = BodyTemperature.gif; sourceTree = "<group>"; };
+		CE56EAA525C5245F0032095A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CE56EAAA25C524630032095A /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 		CE57EA7A25BD2E1700CBAEE5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CE60609625BBE2D70045BCCD /* Body Temperature.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Body Temperature.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE60609A25BBE2D80045BCCD /* Body Temperature WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Body Temperature WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -143,6 +146,7 @@
 				CE6060BA25BBE2E40045BCCD /* Info.plist */,
 				CE6060BB25BBE2E40045BCCD /* PushNotificationPayload.apns */,
 				CE6060B725BBE2E40045BCCD /* Preview Content */,
+				CE56EAA625C5245F0032095A /* Localizable.strings */,
 			);
 			path = "Body Temperature WatchKit Extension";
 			sourceTree = "<group>";
@@ -236,6 +240,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ja,
 			);
 			mainGroup = CE60608F25BBE2D70045BCCD;
 			productRefGroup = CE60609725BBE2D70045BCCD /* Products */;
@@ -270,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE6060B925BBE2E40045BCCD /* Preview Assets.xcassets in Resources */,
+				CE56EAA425C5245F0032095A /* Localizable.strings in Resources */,
 				CE6060B625BBE2E40045BCCD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,6 +309,18 @@
 			targetProxy = CE6060A825BBE2DF0045BCCD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE56EAA625C5245F0032095A /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE56EAA525C5245F0032095A /* en */,
+				CE56EAAA25C524630032095A /* ja */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		CE6060BC25BBE2E40045BCCD /* Debug */ = {

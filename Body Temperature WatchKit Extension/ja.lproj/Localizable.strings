@@ -1,0 +1,17 @@
+/* 
+  Localizable.strings
+  Body Temperature
+
+  Created by MacBook Pro on 2021/01/30.
+  
+*/
+"app_name" = "体温";
+"sec_unit" = "秒";
+"start_button" = "開始";
+"results_name" = "測定結果";
+"body_temp" = "体温";
+"done_button" = "完了";
+"health_app_text" = "体温の測定結果はiPhoneの”ヘルスケア” Appで見ることができます。";
+"info_bar_title" = "情報";
+"info_title" = "体温についての詳しい情報";
+"info_contents" = "平熱は1日を通して変化し、朝は低めで、夕方と夜は高めです。平均的な平熱は37度弱です。平熱は人によってこれよりも低いことも高いこともあります。";
