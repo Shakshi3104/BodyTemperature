@@ -145,8 +145,7 @@ struct InfoView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
-            ContentView()
-                .environment(\.locale, .init(identifier: "ja"))
+            ContentView()//.environment(\.locale, .init(identifier: "ja"))
             ResultsView(isPresented: .constant(false), isMeasurement: .constant(false))
             InfoView()
         }
